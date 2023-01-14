@@ -1,1 +1,1 @@
-# this is and example file for Dillen
+print("hi")
