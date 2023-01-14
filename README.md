@@ -1,2 +1,3 @@
-# Web_Development
-This is a repository for and intro to web development class.
+___
+##This is my code for my class. I hope you find it cool and interesting.
+__
