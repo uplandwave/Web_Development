@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
 body {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Roboto Condensed';
+    margin: 0;
+    padding: 0;
 }
 .content {
     margin: auto 0;
@@ -17,6 +23,8 @@ nav a:hover {
 }
 .home-title {
     color: black;
+    font-family: 'Roboto Condensed';
+    font-size: 4em;
 }
 h4{
     color: black;
@@ -32,6 +40,7 @@ h4{
 }
 .msg p{
     color: black;
+    font-size: 1.1em;
 }
 footer{
     color: black;
@@ -71,11 +80,16 @@ nav a:hover {
 .book, .join {
     background-color: rgb(156, 198, 234);
     text-decoration: none;
+    font-size: 18px
 }
 .book:hover, .join:hover {
     background-color: rgb(179, 179, 179);
 }
 
+.msg h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed';
+}
 .msg {
     background-color: rgb(103, 137, 137);
 }
