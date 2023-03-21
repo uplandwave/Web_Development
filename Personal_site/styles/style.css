@@ -8,7 +8,6 @@ body {
     padding: 0;
     background-color:aliceblue; 
 }
-
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -71,7 +70,6 @@ nav a:hover {
     padding-left: 25px;
     padding-right: 25px;
 }
-
 .pic-2 {
 
     width: 600px;
@@ -146,8 +144,6 @@ body {
 nav a:hover {
     background-color: black;
 }
-
-
 .logo {
     width: 120px;
 }
@@ -155,7 +151,6 @@ nav a:hover {
     width: 80px;
     padding-top: 10px
 }
-
 footer p {
     font-size: 1.2em;
 }
@@ -170,93 +165,58 @@ main{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+h3{
+    font-size: 4em;
+    font-family: 'Gloock';
+    padding-left: 50px;
+}
+.ep-home-title{
+    font-size: 45px;
+    padding-left: 75px;
+}
 .ep-home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
 }
-.card-img, .mountains {
-    width: 100%;
+.ep1-head{
+    grid-column: 1/5;
+    grid-row: 1;
 }
-.rivers-card{
-    grid-column: 2/4;
-    grid-row: 2/3;
+.ep1{
+    grid-column: 1/2;
+    grid-row: 2;
 }
-.camping-card{
-    grid-column: 5/7;
-    grid-row: 2/3;
+.ep1-text{
+    grid-column: 2/9;
+    grid-row: 2;
 }
-.rapids-card{
-    grid-column: 8/10;
-    grid-row: 2/3;
+.ep2-head{
+    grid-column: 1/5;
+    grid-row: 3;
 }
-#background{
-    grid-column: 1/11;
-    grid-row: 4/9;
+.ep2{
+    grid-column: 1/2;
+    grid-row: 4;
 }
-.mountains{
-    grid-column: 2/7;
-    grid-row: 5/8;
-    width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+.ep2-text{
+    grid-column: 2/9;
+    grid-row: 4;
 }
-.msg{
-    grid-column: 6/10;
-    grid-row: 6/7;
-    background-color: #6f7364;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+.ep1-head, .ep1, .ep1-text, .ep2-head, .ep2, .ep2-text{
+    align-self: center;
+    text-align: left;
+    padding-left: 50px;
 }
-.card-img {
-    border: 10px solid #d9c2a3;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+.ep1-text, .ep2-text{
+    font-size: 18px;
 }
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
+.ep-link{
+    grid-column: 1/5;
+    grid-row: 6;
+    padding-left: 50px;
+    text-align: left;
 }
-.blog{
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    /* grid-template-rows: repeat(5, 1fr); */
-}
-.blog-title{
-    color: rgb(108, 108, 108);
-    padding-top: 10px;
-    padding-bottom: 30px;
-    grid-column: 1/10;
-    grid-row: 1/2;
-}
-.first-title, .second-title, .third-title{
-    color: rgb(108, 108, 108);
-}
-.first-post{
-    grid-column: 2/4;
-    /* grid-row: 2/3; */
-}
-.second-post{
-    grid-column: 5/7;
-    /* grid-row: 2/3; */
-}
-.third-post{
-    grid-column: 2/4;
-    /* grid-row: 2/3; */
-}
-.bigboy{
-    grid-column: 5/7;
-}
-.home-image-2 {
-    grid-row: 2/3;
-
-}
-
-
-
 #feedback {
     background-color: antiquewhite;
     position: absolute;
@@ -266,10 +226,7 @@ main{
     padding: .5em;
     /* make this element invisible until we are ready for it */
     display: none;      
-}
-.moveDown {
-    margin-top: 3em;
-}
+
        
 
 
@@ -323,5 +280,4 @@ main{
     footer {
         margin-top: 25px;
     }
-}
-
+}}
