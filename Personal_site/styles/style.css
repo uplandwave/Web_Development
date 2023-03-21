@@ -38,6 +38,9 @@ nav a {
     text-decoration: none;
     padding: 55px;
 }
+main section {
+    text-align: center;
+}
 nav a:hover {
     background-color: black;
     color: #ffffff;
@@ -97,16 +100,31 @@ footer {
     padding: 25px 50px;
     margin-top: 200px;
 }
+/* About */
+.about-home-title {
+    color: black;
+    font-size: 4em;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.about-text-one, .about-text-two, .about-text-three{
+    text-align: left;
+    padding-left: 50px;
+
+}
+.about-text-two{
+    background-color: #1E425D;
+    color: #ffffff;
+}
+.move{
+    padding-top: 20px;
+    padding-right: 15;
+}
+.about-text-three{
+    padding-top: 15px;
+}
 h4{
     color: black;
-}
-.book, .join{
-    color: black;
-    padding: 15px 30px;
-    margin-top: 50px;
-}
-.book:hover, .join:hover{
-    color: blanchedalmond;
 }
 footer a {
     color: rgb(255, 255, 255);
@@ -118,9 +136,6 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
-main section {
-    text-align: center;
-}
 .backround {
     height: 725px;
     background-color: #000000;
@@ -131,25 +146,7 @@ body {
 nav a:hover {
     background-color: black;
 }
-.book, .join {
-    background-color: rgb(156, 198, 234);
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-}
-.book:hover, .join:hover {
-    background-color: rgb(179, 179, 179);
-}
 
-.msg h2{
-    color: rgb(0, 0, 0);
-    font-family: 'Roboto Condensed';
-}
-.msg {
-    background-color: rgb(103, 137, 137);
-    line-height: 1.5em;
-    padding: 35px;
-}
 
 .logo {
     width: 120px;
@@ -158,54 +155,24 @@ nav a:hover {
     width: 80px;
     padding-top: 10px
 }
-.hero-img {
-    width: 1600px;
-}
+
 footer p {
     font-size: 1.2em;
 }
 footer p a:hover {
     text-decoration: underline;
 }  
-.card-img {
-    border: 10px solid #d9c2a3;
-}
 main section img {
     box-sizing: border-box;
-}
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px; 
-}
-#hero-box {
-    grid-column: 2/3;
-    grid-row: 1/3;
-    z-index: -1;
-    justify-self: center;
-    align-self: center;
-}
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-    justify-self: center;
-    align-self: center;
-}
-#hero-msg h4 {
-    color: white;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: center;
-}
-#hero-msg h1 {
-    color: white;
-    
 }
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.ep-home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
 }
 .card-img, .mountains {
