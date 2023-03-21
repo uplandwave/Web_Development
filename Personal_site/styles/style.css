@@ -111,15 +111,21 @@ footer {
 
 }
 .about-text-two{
-    background-color: #1E425D;
+    background-color: #1e425db3;
     color: #ffffff;
+}
+.about-title1{
+    padding-top: 45px;
 }
 .move{
     padding-top: 20px;
-    padding-right: 15;
+    padding-right: 15px;
 }
 .about-text-three{
-    padding-top: 15px;
+    padding-top: 25px;
+}
+.about-image-1, .about-image-2, .about-image-3{
+    align-self: center;
 }
 h4{
     color: black;
