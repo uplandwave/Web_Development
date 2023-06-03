@@ -258,20 +258,32 @@ h3{
     grid-column: 2/9;
     grid-row: 4;
 }
-.ep1-head, .ep1, .ep1-text, .ep2-head, .ep2, .ep2-text{
+.ep3-head{
+    grid-column: 1/9;
+    grid-row: 5;
+}
+.ep3{
+    grid-column: 1/2;
+    grid-row: 6;
+}
+.ep3-text{
+    grid-column: 2/9;
+    grid-row: 6;
+}
+.ep1-head, .ep1, .ep1-text, .ep2-head, .ep2, .ep2-text, .ep3-head, .ep3, .ep3-text{
     align-self: center;
     text-align: left;
     padding-left: 50px;
 }
-.ep1-text, .ep2-text{
+.ep1-text, .ep2-text, .ep3-text{
     font-size: 20px;
 }
-.ep1-head, .ep2-head{
+.ep1-head, .ep2-head, .ep3-head{
     font-size: 20px;
 }
 .ep-link{
     grid-column: 1/5;
-    grid-row: 6;
+    grid-row: 7;
     padding-left: 50px;
     text-align: left;
     font-size: 20px;
